@@ -1,0 +1,42 @@
+﻿@{
+    ViewBag.Title = "Measurement result";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<h2>@ViewBag.Title.</h2>
+<div class="row">
+    <div class="col-md-12">
+        @*<h4>Sharth.</h4>*@
+        <hr  style="margin-bottom: 0px;"/>
+        <!-- Progress bar-->
+        <div class="progress progress-striped active" id="divLoading" style="display:none">
+            <div class="progress-bar" style="width: 100%;">data loading...</div>
+        </div>
+        <!-- end Progress bar-->
+        <div id="Measurement_Chart" style="margin-top: 0px; width: 1200px; height: 350px;" display:none">
+        </div>
+    </div>
+    <div class="col-md-12">
+        <br />
+        @*<h4>TreeGrid.</h4>*@
+        <hr />
+        <table id="treegrid"></table>
+    </div>
+</div>
+
+@Scripts.Render("~/Scripts/Measurement/UrlsCharthControl.js")
+@Scripts.Render("~/Scripts/Measurement/UrlsTreeGridControl.js")
+
+<script type="text/javascript">   
+    treeGridControl.initializeGrid();
+    urlsCharthControl.loadCharth();
+</script> 
+
+
+
+
+
+
+
+
+
