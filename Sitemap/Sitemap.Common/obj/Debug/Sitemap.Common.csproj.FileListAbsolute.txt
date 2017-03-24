@@ -1,0 +1,9 @@
+E:\2_TfsWorkspace\Sitemap\Sitemap.Common\bin\Debug\Sitemap.Common.dll
+E:\2_TfsWorkspace\Sitemap\Sitemap.Common\bin\Debug\Sitemap.Common.pdb
+E:\2_TfsWorkspace\Sitemap\Sitemap.Common\obj\Debug\Sitemap.Common.dll
+E:\2_TfsWorkspace\Sitemap\Sitemap.Common\obj\Debug\Sitemap.Common.pdb
+E:\2_TfsWorkspace\Sitemap 1\Sitemap.Common\bin\Debug\Sitemap.Common.dll
+E:\2_TfsWorkspace\Sitemap 1\Sitemap.Common\bin\Debug\Sitemap.Common.pdb
+E:\2_TfsWorkspace\Sitemap 1\Sitemap.Common\obj\Debug\Sitemap.Common.dll
+E:\2_TfsWorkspace\Sitemap 1\Sitemap.Common\obj\Debug\Sitemap.Common.pdb
+E:\2_TfsWorkspace\Sitemap 1\Sitemap.Common\obj\Debug\Sitemap.Common.csprojResolveAssemblyReference.cache
